@@ -17,6 +17,7 @@ http://localhost:9001/hello
 Node application (A simple node 'sails' microservice)
 ```shell
 http://localhost:1337/
+http://localhost:1337/health.json
 ```
 ---
 ***sidecar :***
