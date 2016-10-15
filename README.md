@@ -35,9 +35,9 @@ http://localhost:8761/
 ***gateway :***
 Spring boot application (Netflix Zull reverse proxy : entry point into the microservice ecosystem from the outside world)
 ```shell
-http://localhost:9003/path1 : routing to 'hello-service'
-http://localhost:9003/path2 : routing to 'bye-service'
-http://localhost:9003/path3 : routing to 'sails-service'
+http://localhost:9003/path1/hello/ : routing to 'hello-service'
+http://localhost:9003/path2/bye/   : routing to 'bye-service'
+http://localhost:9003/path3/       : routing to 'sails-service'
 ```
 
 ![Img1](https://raw.githubusercontent.com/nbouherrou/microservice-architecture/master/images/img.png)
