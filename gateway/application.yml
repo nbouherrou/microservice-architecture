@@ -1,0 +1,27 @@
+server:  
+  port: 9003
+
+spring:  
+  application:
+    name: gateway
+
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    
+zuul:
+  routes:
+    hello-service:
+        path: /path1/**
+        serviceId: hello-service
+    bye-service:
+        path: /path2/**
+        serviceId: bye-service
+    sidecar:
+        path: /path3/**
+        serviceId: sidecar
