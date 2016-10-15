@@ -1,10 +1,15 @@
 ### Test microservice architecture
 
+***bye-service :***
+Spring boot application (A simple 'bye' microservice)
 ```shell
- neo4j (start/stop/console)
+http://localhost:9002/bye
 ```
 
-***step 02 :***
-Move the chrome driver from the projet folder "src/main/resources" to your "/bin"
+***hello-service :***
+Spring boot application (A simple 'hello' microservice)
+```shell
+http://localhost:9001/hello
+```
 
 ![Img1](https://raw.githubusercontent.com/nbouherrou/microservice-architecture/master/images/img.png)
