@@ -4,20 +4,20 @@
 ***bye-service :***
 Spring boot application (A simple 'bye' microservice)
 ```shell
-http://localhost:9002/bye
+http://localhost:9002/bye/
 ```
 ---
 ***hello-service :***
 Spring boot application (A simple 'hello' microservice)
 ```shell
-http://localhost:9001/hello
+http://localhost:9001/hello/
 ```
 ---
 ***sails-service :***
 Node application (A simple node 'sails' microservice)
 ```shell
 http://localhost:1337/
-http://localhost:1337/health.json
+http://localhost:1337/health.json/
 ```
 ---
 ***sidecar :***
