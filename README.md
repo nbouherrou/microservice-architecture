@@ -33,7 +33,7 @@ http://localhost:8761/
 ```
 ---
 ***gateway :***
-Spring boot application (Netflix Zull reverse proxy : entry point into the microservice ecosystem from the outside world)
+Spring boot application (Netflix Zuul reverse proxy : entry point into the microservice ecosystem from the outside world)
 ```shell
 http://localhost:9003/path1/hello/ : routing to 'hello-service'
 http://localhost:9003/path2/bye/   : routing to 'bye-service'
